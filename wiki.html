@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+        body {background-color: grey;}
+        h1 {color : rgb(24, 72, 8)}
+        p {color: rgb(121, 38, 38)}
+
+    </style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -28,6 +34,40 @@
             <h3>
                 Uso de tabelas 
             </h3>
+            <table border = '1' cellpadding = '3' style = 'border-collapse: collapse;'>
+                <thead> <!-- Cabeçalho da tabela -->
+                    <tr>
+                        <!-- colspan é duração de coluna-->
+                        <th colspan = '4'> Usuários </th>
+                    </tr>
+                    <tr> <!-- table row -->
+                        <th> Tipo </th>
+                        <th> Nome </th> <!-- table header -->
+                        <th> CPF </th>
+                        <th> Data nasc. </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <!-- rowspan é duração de linha -->
+                        <td rowspan = '2'>Funcionário </td>
+                        <td> Gabrielly </td> <!-- table data -->
+                        <td> 000.000.000-00 </td>
+                        <td> 05/07/2003 </td>
+                    </tr>
+                    <tr>
+                        <td> Paula Freitas </td>
+                        <td> 000.000.000-00 </td>
+                        <td> 08/11/1998 </td>
+                    </tr>
+                    <tr>
+                        <td> Cliente </td>
+                        <td> Juan Lucas </td>
+                        <td> 000.000.000-00 </td>
+                        <td> 23/01/1996 </td>
+                    </tr>
+                </tbody>
+            </table>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium ipsum doloribus iure incidunt facilis quo nisi autem iste expedita neque possimus natus hic eius praesentium illo, deserunt, accusantium quas odit soluta? Nostrum id voluptatibus consectetur quibusdam soluta quidem sint harum similique tempora dignissimos, ipsa debitis!
             </p>
